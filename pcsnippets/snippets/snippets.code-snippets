@@ -1,0 +1,319 @@
+{
+    // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+    // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+    // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+    // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+    // Placeholders with the same ids are connected.
+    // Example:
+    "Styled_Component_Group_One": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s4",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getGroupOneSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    },
+    "Styled_Component_Group_One_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s4short",
+        "body": [
+            "${ThemeSelectors.getGroupOneSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Group_Two": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s8",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getGroupTwoSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Group_Two_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s8short",
+        "body": [
+            "${ThemeSelectors.getGroupTwoSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Group_Three": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s12",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getGroupThreeSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Group_Three_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s12short",
+        "body": [
+            "${ThemeSelectors.getGroupThreeSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Group_Four": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s16",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getGroupFourSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Group_Four_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s16short",
+        "body": [
+            "${ThemeSelectors.getGroupFourSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Group_Five": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s24",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getGroupFiveSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Group_Five_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s24short",
+        "body": [
+            "${ThemeSelectors.getGroupFiveSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Related_One": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s32",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getRelatedOneSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Related_One_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s32short",
+        "body": [
+            "${ThemeSelectors.getRelatedOneSpacing(theme)}"
+        ],
+        "description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Related_Two": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s48",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getRelatedTwoSpacing(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Related_Two_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s48",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getRelatedTwoSpacing(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Distinct_One": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s64",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getDistinctOneSpacing(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Distinct_One_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s64short",
+        "body": [
+            "${ThemeSelectors.getDistinctOneSpacing(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Distinct_Two": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s72",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getDistinctTwoSpacing(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Distinct_Two_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "s72short",
+        "body": [
+            "${ThemeSelectors.getDistinctTwoSpacing(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    //----------Fonts----------------------
+    "Styled_Component_Type_Cherokee": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type96",
+        "body": [
+            "<TypeCherokee as='$1'></TypeCherokee>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Type_Hummer": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type144",
+        "body": [
+            "<TypeHummer as='$1'></TypeHummer>"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Type_Discovery": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type40",
+        "body": [
+            "<TypeDiscovery as='$1'></TypeDiscovery>"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Type_Phantom": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type32",
+        "body": [
+            "<TypePhantom as='$1'></TypePhantom>"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Type_Insignia": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type26",
+        "body": [
+            "<TypeInsignia as='$1'></TypeInsignia>"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Type_Toledo": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type20",
+        "body": [
+            "<TypeToledo as='$1'></TypeToledo>"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Type_Picanto": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "typepic16",
+        "body": [
+            "<TypePicanto as='$1'></TypePicanto>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Type_Fiesta": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type16",
+        "body": [
+            "<TypeFiesta as='$1'></TypeFiesta>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Type_Beetle": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type18",
+        "body": [
+            "<TypeBeetle as='$1'></TypeBeetle>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Type_Smart": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type14",
+        "body": [
+            "<TypeSmart as='$1'></TypeSmart>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Type_Smart": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type14",
+        "body": [
+            "<TypeSmart as='$1'></TypeSmart>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Type_Prius": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "typeprius14",
+        "body": [
+            "<TypePrius as='$1'></TypePrius>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Type_Mini": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "type12",
+        "body": [
+            "<TypeMini as='$1'></TypeMini>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Create_Styled_Component": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "sc",
+        "body": [
+            "export const ${1:ComponentName} = styled.${2|div, section, article, span, p, header|}`",
+            "\t$0",
+            "`"
+        ],
+        "description": "create styled component DS value"
+    },
+    "Styled_Component_Theme_Wrapper": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "sctheme",
+        "body": [
+            "${({ theme }) => css`\n\t$1`}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+}
