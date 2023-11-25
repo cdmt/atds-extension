@@ -1,11 +1,5 @@
 {
-    // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
-    // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
-    // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
-    // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
-    // Placeholders with the same ids are connected.
-    // Example:
+    //Spacing
     "Styled_Component_Group_One": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "s4",
@@ -171,7 +165,7 @@
         "
         description": "create styled component DS value"
     },
-    //----------Fonts----------------------
+    //Type
     "Styled_Component_Type_Cherokee": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "type96",
@@ -316,4 +310,297 @@
         "
         description": "create styled component DS value"
     }
+    //border
+    ,
+    "Styled_Component_Border": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "border-radius",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getBorderRadius(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Border_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "border-radius-short",
+        "body": [
+            "ThemeSelectors.getBorderRadius(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Border_Width": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "border-width",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getBorderWidth(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Border_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "border-width-short",
+        "body": [
+            "ThemeSelectors.getBorderWidth(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    //color
+    ,
+    "Styled_Component_Color_Blue": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-b",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getBlue(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Blue_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-b-short",
+        "body": [
+            "ThemeSelectors.getBlue(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Light_Blue": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-lb",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getLightBlue(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Light_Blue_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-lb-short",
+        "body": [
+            "ThemeSelectors.getLightBlue(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Dark_Blue": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-db",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getDarkBlue(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Dark_Blue_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-db-short",
+        "body": [
+            "ThemeSelectors.getDarkBlue(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Red_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-r-short",
+        "body": [
+            "ThemeSelectors.getRed(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Light_Red": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-lr",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getLightRed(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Light_Red_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-lr-short",
+        "body": [
+            "ThemeSelectors.getLightRed(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Dark_Red": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-dr",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getDarkRed(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Dark_Red_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-dr-short",
+        "body": [
+            "ThemeSelectors.getDarkRed(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Green_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-g-short",
+        "body": [
+            "ThemeSelectors.getGreen(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Light_Green": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-lg",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getLightGreen(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Light_Green_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-lg-short",
+        "body": [
+            "ThemeSelectors.getLightGreen(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Dark_Green": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-dg",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getDarkGreen(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Dark_Green_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-dg-short",
+        "body": [
+            "ThemeSelectors.getDarkGreen(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+   
+    ,
+    "Styled_Component_Color_Yellow_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-y-short",
+        "body": [
+            "ThemeSelectors.getYellow(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Light_Yellow": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-ly",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getLightYellow(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Light_Yellow_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-ly-short",
+        "body": [
+            "ThemeSelectors.getLightYellow(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Dark_Yellow": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-dy",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getDarkYellow(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Dark_Yellow_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-dy-short",
+        "body": [
+            "ThemeSelectors.getDarkYellow(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Grey_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-g-short",
+        "body": [
+            "ThemeSelectors.getGrey(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Light_Grey": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-lg",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getLightGrey(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Light_Grey_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-lg-short",
+        "body": [
+            "ThemeSelectors.getLightGrey(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    },
+    "Styled_Component_Color_Dark_Grey": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-dg",
+        "body": [
+            "${({ theme }) => ThemeSelectors.getDarkGrey(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    ,
+    "Styled_Component_Color_Dark_Grey_Short": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "col-dg-short",
+        "body": [
+            "ThemeSelectors.getDarkGrey(theme)}"
+        ],
+        "
+        description": "create styled component DS value"
+    }
+    
 }
