@@ -67,16 +67,16 @@ If you DO have your Styled component wrapped within a theme, please use `short` 
 
 | Shortcode | Value | Result                                          |
 | --------- | ----- | ----------------------------------------------- |
-| `s4`      | 4px   | `${ThemeSelectors.getGroupOneSpacing(theme)}`   |
-| `s8`      | 8px   | `${ThemeSelectors.getGroupTwoSpacing(theme)}`   |
-| `s12`     | 12px  | `${ThemeSelectors.getGroupThreeSpacing(theme)}` |
-| `s16`     | 16px  | `$ThemeSelectors.getGroupFourSpacing(theme)}`   |
-| `s20`     | 20px  | `$ThemeSelectors.getGroupFiveSpacing(theme)}`   |
-| `s24`     | 24px  | `$ThemeSelectors.getGroupSixSpacing(theme)}`    |
-| `s32`     | 32px  | `$ThemeSelectors.getRelatedOneSpacing(theme)}`  |
-| `s48`     | 48px  | `$ThemeSelectors.getRelatedTwoSpacing(theme)}`  |
-| `s64`     | 64px  | `$ThemeSelectors.getDistinctOneSpacing(theme)}` |
-| `s72`     | 72px  | `$ThemeSelectors.getDistinctTwoSpacing(theme)}` |
+| `s4short` | 4px   | `${ThemeSelectors.getGroupOneSpacing(theme)}`   |
+| `s8short` | 8px   | `${ThemeSelectors.getGroupTwoSpacing(theme)}`   |
+| `s12hort` | 12px  | `${ThemeSelectors.getGroupThreeSpacing(theme)}` |
+| `s16hort` | 16px  | `$ThemeSelectors.getGroupFourSpacing(theme)}`   |
+| `s20hort` | 20px  | `$ThemeSelectors.getGroupFiveSpacing(theme)}`   |
+| `s24hort` | 24px  | `$ThemeSelectors.getGroupSixSpacing(theme)}`    |
+| `s32hort` | 32px  | `$ThemeSelectors.getRelatedOneSpacing(theme)}`  |
+| `s48hort` | 48px  | `$ThemeSelectors.getRelatedTwoSpacing(theme)}`  |
+| `s64hort` | 64px  | `$ThemeSelectors.getDistinctOneSpacing(theme)}` |
+| `s72hort` | 72px  | `$ThemeSelectors.getDistinctTwoSpacing(theme)}` |
 
 ---
 
