@@ -82,36 +82,30 @@ If you DO have your Styled component wrapped within a theme, please use `short` 
 
 # colors
 
-col-b - blue - ${({ theme }) => ThemeSelectors.getBlue(theme)}
-col-b-short - blue - ${ThemeSelectors.getBlue(theme)}
-col-lb - blue - ${({ theme }) => ThemeSelectors.getLightBlue(theme)}
-col-lb-short - dark blue - ${ThemeSelectors.getLightBlue(theme)}
-col-db - dark blue - ${({ theme }) => ThemeSelectors.getDarkBlue(theme)}
-col-lb-short - blue - ${ThemeSelectors.getDarkBlue(theme)}
-col-r - red - ${({ theme }) => ThemeSelectors.getRed(theme)}
-col-r-short - red - ${ThemeSelectors.getRed(theme)}
-col-lr - light red - ${({ theme }) => ThemeSelectors.getLightRed(theme)}
-col-lr-short - light red - ${ThemeSelectors.getLightRed(theme)}
-col-dr - dark red - ${({ theme }) => ThemeSelectors.getDarkRed(theme)}
-col-dr-short - dark red - ${ThemeSelectors.getDarkRed(theme)}
-col-g - green - ${({ theme }) => ThemeSelectors.getGreen(theme)}
-col-g-short - green - ${ThemeSelectors.getGreen(theme)}
-col-lg - light green - ${({ theme }) => ThemeSelectors.getLightGreen(theme)}
-col-g-short - green - ${ThemeSelectors.getLightGreen(theme)}
-col-dg - dark green - ${({ theme }) => ThemeSelectors.getDarkGreen(theme)}
-col-g-short - dark green - ${ThemeSelectors.getDarkGreen(theme)}
-col-y - yellow - ${({ theme }) => ThemeSelectors.getYellow(theme)}
-col-y-short - yellow - ${ThemeSelectors.getYellow(theme)}
-col-ly - light yellow - ${({ theme }) => ThemeSelectors.getLightYellow(theme)}
-col-ly-short - ligh yellow - ${ThemeSelectors.getLightYellow(theme)}
-col-dy - dark yellow - ${({ theme }) => ThemeSelectors.getYellow(theme)}
-col-dy-short - dark yellow - ${ThemeSelectors.getDarkYellow(theme)}
-col-g - grey - ${({ theme }) => ThemeSelectors.getGrey(theme)}
-col-g-short - grey - ${ThemeSelectors.getGrey(theme)}
-col-lg - light grey - ${({ theme }) => ThemeSelectors.getLightGrey(theme)}
-col-lg-short - light grey - ${ThemeSelectors.getLightGrey(theme)}
-col-dg - dark grey - ${({ theme }) => ThemeSelectors.getDarkGrey(theme)}
-col-dg-short - dark rey - ${ThemeSelectors.getDarkGrey(theme)}
+| Value        | ShortCode | Result
+|--------------|-----------|----------------------------------------------------------|
+| blue         | `col-b`   | `${({ theme }) => ThemeSelectors.getBlue(theme)}`        |
+| light blue   | `col-lb`  | `${({ theme }) => ThemeSelectors.getLightBlue(theme)}`   |
+| dark blue    | `col-db`  | `${({ theme }) => ThemeSelectors.getdarkBlue(theme)}`    |
+| red          | `col-r`   | `${({ theme }) => ThemeSelectors.getRed(theme)}`         |
+| light red    | `col-lr`  | `${({ theme }) => ThemeSelectors.getLightRed(theme)}`    |
+| dark red     | `col-dr`  | `${({ theme }) => ThemeSelectors.getDarkRed(theme)}`     |
+| green        | `col-g`   | `${({ theme }) => ThemeSelectors.getGreen(theme)}`       |
+| light green  | `col-lg`  | `${({ theme }) => ThemeSelectors.getLightGreen(theme)}`  |
+| dark green   | `col-dg`  | `${({ theme }) => ThemeSelectors.getDarkGreen(theme)}`   |
+| yellow       | `col-y`   | `${({ theme }) => ThemeSelectors.getYellow(theme)}`      |
+| light yellow | `col-ly`  | `${({ theme }) => ThemeSelectors.getLighyYellow(theme)}` |
+| dark yellow  | `col-dy`  | `${({ theme }) => ThemeSelectors.getDarlYellow(theme)}`  |
+| grey         | `col-g`   | `${({ theme }) => ThemeSelectors.getGrey(theme)}`        |
+| light grey   | `col-lg`  | `${({ theme }) => ThemeSelectors.getLightGrey(theme)}`   |
+| dark grey    | `col-dg`  | `${({ theme }) => ThemeSelectors.getDarkGrey(theme)}`    |
+
+
+
+
+
+
+
 col-at-b - blue - ${({ theme }) => ThemeSelectors.getATBlue(theme)}
 col-at-b-short - blue ${ThemeSelectors.getATBlue(theme)}
 col-at-r - red - ${({ theme }) => ThemeSelectors.getATRed(theme)}
