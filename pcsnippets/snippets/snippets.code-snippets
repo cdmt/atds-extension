@@ -173,7 +173,7 @@
             "<TypeHummer as='$1'></TypeHummer>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Hummer"
     },
     "Type-Cherokee": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
@@ -182,16 +182,16 @@
             "<TypeCherokee as='$1'></TypeCherokee>"
         ],
         "
-        description": "create styled component DS value"
-    }
-    "Styled_Component_Type_Discovery": {
+        description": "Shortcut for Type Cherokee"
+    },
+    "Type_Discovery": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-40",
         "body": [
             "<TypeDiscovery as='$1'></TypeDiscovery>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Discovery"
     },
     "Type-Phantom": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
@@ -200,7 +200,7 @@
             "<TypePhantom as='$1'></TypePhantom>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Phantom"
     },
     "Type-Insignia": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
@@ -209,7 +209,7 @@
             "<TypeInsignia as='$1'></TypeInsignia>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Insignia"
     },
     "Type-Toledo": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
@@ -218,7 +218,7 @@
             "<TypeToledo as='$1'></TypeToledo>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Toledo"
     },
     "Type-Beetle": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
@@ -227,7 +227,7 @@
             "<TypeBeetle as='$1'></TypeBeetle>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Beetle"
     },
     "Type-Picanto": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
@@ -236,7 +236,7 @@
             "<TypePicanto as='$1'></TypePicanto>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Picanto"
     }
     ,
     "Type-Fiesta": {
@@ -246,7 +246,7 @@
             "<TypeFiesta as='$1'></TypeFiesta>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Fiesta"
     }
     ,
     "Type-Smart": {
@@ -256,7 +256,7 @@
             "<TypeSmart as='$1'></TypeSmart>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Smart"
     }
     ,
     "Type-Prius": {
@@ -266,7 +266,7 @@
             "<TypePrius as='$1'></TypePrius>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Prius"
     }
     ,
     "Type-Mini": {
@@ -276,7 +276,7 @@
             "<TypeMini as='$1'></TypeMini>"
         ],
         "
-        description": "create styled component DS value"
+        description": "Shortcut for Type Mini"
     }
     ,
     "Create_Styled_Component": {
