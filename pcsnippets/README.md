@@ -82,24 +82,23 @@ If you DO have your Styled component wrapped within a theme, please use `short` 
 
 # colors
 
-| ShortCode | Value        | Result                                                   |
-| --------- | ------------ | -------------------------------------------------------- |
-| `col-b`   | blue         | `${({ theme }) => ThemeSelectors.getBlue(theme)}`        |
-| `col-lb`  | blue light   | `${({ theme }) => ThemeSelectors.getLightBlue(theme)}`   |
-| `col-db`  | blue dark    | `${({ theme }) => ThemeSelectors.getdarkBlue(theme)}`    |
-| `col-r`   | red          | `${({ theme }) => ThemeSelectors.getRed(theme)}`         |
-| `col-lr`  | red light    | `${({ theme }) => ThemeSelectors.getLightRed(theme)}`    |
-| `col-dr`  | red dark     | `${({ theme }) => ThemeSelectors.getDarkRed(theme)}`     |
-| `col-g`   | green        | `${({ theme }) => ThemeSelectors.getGreen(theme)}`       |
-| `col-dg`  | green dark   | `${({ theme }) => ThemeSelectors.getDarkGreen(theme)}`   |
-| `col-y`   | yellow       | `${({ theme }) => ThemeSelectors.getYellow(theme)}`      |
-| `col-ly`  | yellow light | `${({ theme }) => ThemeSelectors.getLighyYellow(theme)}` |
-| `col-dy`  | yellow dark  | `${({ theme }) => ThemeSelectors.getDarlYellow(theme)}`  |
-| `col-g`   | grey         | `${({ theme }) => ThemeSelectors.getGrey(theme)}`        |
-| `col-lg`  | grey light   | `${({ theme }) => ThemeSelectors.getLightGrey(theme)}`   |
-| `col-dg`  | grey dark    | `${({ theme }) => ThemeSelectors.getDarkGrey(theme)}`    |
-
-`col-dg` = duplicated!
+| ShortCode        | Value        | Result                                                   |
+| ---------------- | ------------ | -------------------------------------------------------- |
+| `c-blue`         | blue         | `${({ theme }) => ThemeSelectors.getBlue(theme)}`        |
+| `c-blue-light`   | blue light   | `${({ theme }) => ThemeSelectors.getLightBlue(theme)}`   |
+| `c-blue-dark`    | blue dark    | `${({ theme }) => ThemeSelectors.getdarkBlue(theme)}`    |
+| `c-red`          | red          | `${({ theme }) => ThemeSelectors.getRed(theme)}`         |
+| `c-red-light`    | red light    | `${({ theme }) => ThemeSelectors.getLightRed(theme)}`    |
+| `c-red-dark`     | red dark     | `${({ theme }) => ThemeSelectors.getDarkRed(theme)}`     |
+| `c-green`        | green        | `${({ theme }) => ThemeSelectors.getGreen(theme)}`       |
+| `c-green-light`  | green light  | `${({ theme }) => ThemeSelectors.getLightGreen(theme)}`  |
+| `c-green-dark`   | green dark   | `${({ theme }) => ThemeSelectors.getDarkGreen(theme)}`   |
+| `c-yellow`       | yellow       | `${({ theme }) => ThemeSelectors.getYellow(theme)}`      |
+| `c-yellow-light` | yellow light | `${({ theme }) => ThemeSelectors.getLighyYellow(theme)}` |
+| `c-yellow-dark`  | yellow dark  | `${({ theme }) => ThemeSelectors.getDarlYellow(theme)}`  |
+| `c-grey`         | grey         | `${({ theme }) => ThemeSelectors.getGrey(theme)}`        |
+| `c-grey-light`   | grey light   | `${({ theme }) => ThemeSelectors.getLightGrey(theme)}`   |
+| `c-grey-dark`    | grey dark    | `${({ theme }) => ThemeSelectors.getDarkGrey(theme)}`    |
 
 col-at-b - blue - ${({ theme }) => ThemeSelectors.getATBlue(theme)}
 col-at-b-short - blue ${ThemeSelectors.getATBlue(theme)}
