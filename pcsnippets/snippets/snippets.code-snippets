@@ -166,17 +166,7 @@
         description": "create styled component DS value"
     },
     //Type
-    "Styled_Component_Type_Cherokee": {
-        "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "t-96",
-        "body": [
-            "<TypeCherokee as='$1'></TypeCherokee>"
-        ],
-        "
-        description": "create styled component DS value"
-    }
-    ,
-    "Styled_Component_Type_Hummer": {
+    "Type-Hummer": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-144",
         "body": [
@@ -185,6 +175,15 @@
         "
         description": "create styled component DS value"
     },
+    "Type-Cherokee": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-96",
+        "body": [
+            "<TypeCherokee as='$1'></TypeCherokee>"
+        ],
+        "
+        description": "create styled component DS value"
+    }
     "Styled_Component_Type_Discovery": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-40",
@@ -194,7 +193,7 @@
         "
         description": "create styled component DS value"
     },
-    "Styled_Component_Type_Phantom": {
+    "Type-Phantom": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-32",
         "body": [
@@ -203,7 +202,7 @@
         "
         description": "create styled component DS value"
     },
-    "Styled_Component_Type_Insignia": {
+    "Type-Insignia": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-26",
         "body": [
@@ -212,7 +211,7 @@
         "
         description": "create styled component DS value"
     },
-    "Styled_Component_Type_Toledo": {
+    "Type-Toledo": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-20",
         "body": [
@@ -221,7 +220,7 @@
         "
         description": "create styled component DS value"
     },
-    "Styled_Component_Type_Beetle": {
+    "Type-Beetle": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-18",
         "body": [
@@ -230,7 +229,7 @@
         "
         description": "create styled component DS value"
     },
-    "Styled_Component_Type_Picanto": {
+    "Type-Picanto": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-16-picanto",
         "body": [
@@ -240,7 +239,7 @@
         description": "create styled component DS value"
     }
     ,
-    "Styled_Component_Type_Fiesta": {
+    "Type-Fiesta": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-16",
         "body": [
@@ -250,7 +249,7 @@
         description": "create styled component DS value"
     }
     ,
-    "Styled_Component_Type_Smart": {
+    "Type-Smart": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-14",
         "body": [
@@ -260,7 +259,7 @@
         description": "create styled component DS value"
     }
     ,
-    "Styled_Component_Type_Prius": {
+    "Type-Prius": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-14-prius",
         "body": [
@@ -270,7 +269,7 @@
         description": "create styled component DS value"
     }
     ,
-    "Styled_Component_Type_Mini": {
+    "Type-Mini": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
         "prefix": "t-12",
         "body": [
