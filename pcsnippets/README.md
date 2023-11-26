@@ -77,8 +77,8 @@ and so on, its just easier than trying to work out what `getRelatedOneSpacing` a
 | `c-green-light`  | green light  | `${({ theme }) => ThemeSelectors.getLightGreen(theme)}`  |
 | `c-green-dark`   | green dark   | `${({ theme }) => ThemeSelectors.getDarkGreen(theme)}`   |
 | `c-yellow`       | yellow       | `${({ theme }) => ThemeSelectors.getYellow(theme)}`      |
-| `c-yellow-light` | yellow light | `${({ theme }) => ThemeSelectors.getLighyYellow(theme)}` |
-| `c-yellow-dark`  | yellow dark  | `${({ theme }) => ThemeSelectors.getDarlYellow(theme)}`  |
+| `c-yellow-light` | yellow light | `${({ theme }) => ThemeSelectors.getLightYellow(theme)}` |
+| `c-yellow-dark`  | yellow dark  | `${({ theme }) => ThemeSelectors.getDarkYellow(theme)}`  |
 | `c-grey`         | grey         | `${({ theme }) => ThemeSelectors.getGrey(theme)}`        |
 | `c-grey-light`   | grey light   | `${({ theme }) => ThemeSelectors.getLightGrey(theme)}`   |
 | `c-grey-dark`    | grey dark    | `${({ theme }) => ThemeSelectors.getDarkGrey(theme)}`    |
@@ -88,20 +88,20 @@ and so on, its just easier than trying to work out what `getRelatedOneSpacing` a
 
 ## More colour values:
 
-| ShortCode         | Result                                                   |
-| ----------------- | -------------------------------------------------------- |
-| `c-action`        | `${({ theme }) => ThemeSelectors.getAction(theme)}`      |
-| `c-action-active` | `${({ theme }) => ThemeSelectors.getLightBlue(theme)}`   |
-| `c-action-hover`  | `${({ theme }) => ThemeSelectors.getdarkBlue(theme)}`    |
-| `c-visited`       | `${({ theme }) => ThemeSelectors.getRed(theme)}`         |
-| `c-focus`         | `${({ theme }) => ThemeSelectors.getLightRed(theme)}`    |
-| `c-graphic`       | `${({ theme }) => ThemeSelectors.getDarkRed(theme)}`     |
-| `c-error`         | `${({ theme }) => ThemeSelectors.getGreen(theme)}`       |
-| `c-success`       | `${({ theme }) => ThemeSelectors.getLightGreen(theme)}`  |
-| `c-accent`        | `${({ theme }) => ThemeSelectors.getDarkGreen(theme)}`   |
-| `c-placeholder`   | `${({ theme }) => ThemeSelectors.getYellow(theme)}`      |
-| `c-title`         | `${({ theme }) => ThemeSelectors.getLighyYellow(theme)}` |
-| `c-copy`          | `${({ theme }) => ThemeSelectors.getDarlYellow(theme)}`  |
+| ShortCode         | Result                                                         |
+| ----------------- | -------------------------------------------------------------- |
+| `c-action`        | `${({ theme }) => ThemeSelectors.getAction(theme)}`            |
+| `c-action-active` | `${({ theme }) => ThemeSelectors.getActionActiveColor(theme)}` |
+| `c-action-hover`  | `${({ theme }) => ThemeSelectors.getActionHoverColor(theme)}`  |
+| `c-visited`       | `${({ theme }) => ThemeSelectors.getVisitedColor(theme)}`      |
+| `c-focus`         | `${({ theme }) => ThemeSelectors.getFocusColor(theme)}`        |
+| `c-graphic`       | `${({ theme }) => ThemeSelectors.getGraphicColor(theme)}`      |
+| `c-error`         | `${({ theme }) => ThemeSelectors.getErrorColor(theme)}`        |
+| `c-success`       | `${({ theme }) => ThemeSelectors.getSuccessColor(theme)}`      |
+| `c-accent`        | `${({ theme }) => ThemeSelectors.getAccentColor(theme)}`       |
+| `c-placeholder`   | `${({ theme }) => ThemeSelectors.getPlaceholderColor(theme)}`  |
+| `c-title`         | `${({ theme }) => ThemeSelectors.getTitleColor(theme)}`        |
+| `c-copy`          | `${({ theme }) => ThemeSelectors.getCopyColor(theme)}`         |
 
 ---
 
