@@ -18,20 +18,20 @@ So, now all you have to do is type in "type" then select your font size which is
 
 ### List
 
-| Shortcode  | Value | Result                                  | Caveat    |
-| ---------- | ----- | --------------------------------------- | --------- |
-| `type-12`  | 12px  | `<TypeMini as=""></TypeMini>`           | -         |
-| `type-14`  | 14px  | `<TypePrius as=""></TypePrius>`         | Uppercase |
-| `type-14`  | 14px  | `<TypeSmart as=""></TypeSmart>`         | -         |
-| `type-16`  | 16px  | `<TypeFiesta as=""></TypeFiesta>`       | -         |
-| `type-16`  | 16px  | `<TypePicanto as=""></TypePicanto>`     | Uppercase |
-| `type-18`  | 18px  | `<TypeBeetle as=""></TypeBeetle>`       | -         |
-| `type-20`  | 20px  | `<TypeToledo as=""></TypeToledo>`       | -         |
-| `type-26`  | 26px  | `<TypeInsignia as=""></TypeInsignia>`   | -         |
-| `type-32`  | 32px  | `<TypePhantom as=""></TypePhantom>`     | -         |
-| `type-40`  | 40px  | `<TypeDiscovery as=""></TypeDiscovery>` | -         |
-| `type-96`  | 96px  | `<TypeCherokee as=""></TypeCherokee>`   | -         |
-| `type-144` | 144px | `<TypeHummer as=""></TypeHummer>`       | -         |
+| Shortcode      | Value | Result                                  | Caveat    |
+| ---------------| ----- | --------------------------------------- | --------- |
+| `t-12`         | 12px  | `<TypeMini as=""></TypeMini>`           | -         |
+| `t-14-prius`   | 14px  | `<TypePrius as=""></TypePrius>`         | Uppercase |
+| `t-14`         | 14px  | `<TypeSmart as=""></TypeSmart>`         | -         |
+| `t-16`         | 16px  | `<TypeFiesta as=""></TypeFiesta>`       | -         |
+| `t-16-picanto` | 16px  | `<TypePicanto as=""></TypePicanto>`     | Uppercase |
+| `t-18`         | 18px  | `<TypeBeetle as=""></TypeBeetle>`       | -         |
+| `t-20`         | 20px  | `<TypeToledo as=""></TypeToledo>`       | -         |
+| `t-26`         | 26px  | `<TypeInsignia as=""></TypeInsignia>`   | -         |
+| `t-32`         | 32px  | `<TypePhantom as=""></TypePhantom>`     | -         |
+| `t-40`         | 40px  | `<TypeDiscovery as=""></TypeDiscovery>` | -         |
+| `t-96`         | 96px  | `<TypeCherokee as=""></TypeCherokee>`   | -         |
+| `t-144`        | 144px | `<TypeHummer as=""></TypeHummer>`       | -         |
 
 \_\_
 

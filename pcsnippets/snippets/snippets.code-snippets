@@ -168,7 +168,7 @@
     //Type
     "Styled_Component_Type_Cherokee": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type96",
+        "prefix": "t-96",
         "body": [
             "<TypeCherokee as='$1'></TypeCherokee>"
         ],
@@ -178,7 +178,7 @@
     ,
     "Styled_Component_Type_Hummer": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type144",
+        "prefix": "t-144",
         "body": [
             "<TypeHummer as='$1'></TypeHummer>"
         ],
@@ -187,7 +187,7 @@
     },
     "Styled_Component_Type_Discovery": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type40",
+        "prefix": "t-40",
         "body": [
             "<TypeDiscovery as='$1'></TypeDiscovery>"
         ],
@@ -196,7 +196,7 @@
     },
     "Styled_Component_Type_Phantom": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type32",
+        "prefix": "t-32",
         "body": [
             "<TypePhantom as='$1'></TypePhantom>"
         ],
@@ -205,7 +205,7 @@
     },
     "Styled_Component_Type_Insignia": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type26",
+        "prefix": "t-26",
         "body": [
             "<TypeInsignia as='$1'></TypeInsignia>"
         ],
@@ -214,16 +214,25 @@
     },
     "Styled_Component_Type_Toledo": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type20",
+        "prefix": "t-20",
         "body": [
             "<TypeToledo as='$1'></TypeToledo>"
         ],
         "
         description": "create styled component DS value"
     },
+    "Styled_Component_Type_Beetle": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-18",
+        "body": [
+            "<TypeBeetle as='$1'></TypeBeetle>"
+        ],
+        "
+        description": "create styled component DS value"
+    },
     "Styled_Component_Type_Picanto": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "typepic16",
+        "prefix": "t-16-picanto",
         "body": [
             "<TypePicanto as='$1'></TypePicanto>"
         ],
@@ -233,7 +242,7 @@
     ,
     "Styled_Component_Type_Fiesta": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type16",
+        "prefix": "t-16",
         "body": [
             "<TypeFiesta as='$1'></TypeFiesta>"
         ],
@@ -241,29 +250,9 @@
         description": "create styled component DS value"
     }
     ,
-    "Styled_Component_Type_Beetle": {
-        "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type18",
-        "body": [
-            "<TypeBeetle as='$1'></TypeBeetle>"
-        ],
-        "
-        description": "create styled component DS value"
-    }
-    ,
     "Styled_Component_Type_Smart": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type14",
-        "body": [
-            "<TypeSmart as='$1'></TypeSmart>"
-        ],
-        "
-        description": "create styled component DS value"
-    }
-    ,
-    "Styled_Component_Type_Smart": {
-        "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type14",
+        "prefix": "t-14",
         "body": [
             "<TypeSmart as='$1'></TypeSmart>"
         ],
@@ -273,7 +262,7 @@
     ,
     "Styled_Component_Type_Prius": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "typeprius14",
+        "prefix": "t-14-prius",
         "body": [
             "<TypePrius as='$1'></TypePrius>"
         ],
@@ -283,7 +272,7 @@
     ,
     "Styled_Component_Type_Mini": {
         "scope": "javascript, javascriptreact, typescript, typescriptreact",
-        "prefix": "type12",
+        "prefix": "t-12",
         "body": [
             "<TypeMini as='$1'></TypeMini>"
         ],
