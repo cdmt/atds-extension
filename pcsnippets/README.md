@@ -18,20 +18,20 @@ So, now all you have to do is type in "type" then select your font size which is
 
 ### List
 
-| Shortcode | Value | Result                                  | Caveat    |
-| --------- | ----- | --------------------------------------- | --------- |
-| `type12`  | 12px  | `<TypeMini as=""></TypeMini>`           | -         |
-| `type14`  | 14px  | `<TypePrius as=""></TypePrius>`         | Uppercase |
-| `type14`  | 14px  | `<TypeSmart as=""></TypeSmart>`         | -         |
-| `type16`  | 16px  | `<TypeFiesta as=""></TypeFiesta>`       | -         |
-| `type16`  | 16px  | `<TypePicanto as=""></TypePicanto>`     | Uppercase |
-| `type18`  | 18px  | `<TypeBeetle as=""></TypeBeetle>`       | -         |
-| `type20`  | 20px  | `<TypeToledo as=""></TypeToledo>`       | -         |
-| `type26`  | 26px  | `<TypeInsignia as=""></TypeInsignia>`   | -         |
-| `type32`  | 32px  | `<TypePhantom as=""></TypePhantom>`     | -         |
-| `type40`  | 40px  | `<TypeDiscovery as=""></TypeDiscovery>` | -         |
-| `type96`  | 96px  | `<TypeCherokee as=""></TypeCherokee>`   | -         |
-| `type144` | 144px | `<TypeHummer as=""></TypeHummer>`       | -         |
+| Shortcode  | Value | Result                                  | Caveat    |
+| ---------- | ----- | --------------------------------------- | --------- |
+| `type-12`  | 12px  | `<TypeMini as=""></TypeMini>`           | -         |
+| `type-14`  | 14px  | `<TypePrius as=""></TypePrius>`         | Uppercase |
+| `type-14`  | 14px  | `<TypeSmart as=""></TypeSmart>`         | -         |
+| `type-16`  | 16px  | `<TypeFiesta as=""></TypeFiesta>`       | -         |
+| `type-16`  | 16px  | `<TypePicanto as=""></TypePicanto>`     | Uppercase |
+| `type-18`  | 18px  | `<TypeBeetle as=""></TypeBeetle>`       | -         |
+| `type-20`  | 20px  | `<TypeToledo as=""></TypeToledo>`       | -         |
+| `type-26`  | 26px  | `<TypeInsignia as=""></TypeInsignia>`   | -         |
+| `type-32`  | 32px  | `<TypePhantom as=""></TypePhantom>`     | -         |
+| `type-40`  | 40px  | `<TypeDiscovery as=""></TypeDiscovery>` | -         |
+| `type-96`  | 96px  | `<TypeCherokee as=""></TypeCherokee>`   | -         |
+| `type-144` | 144px | `<TypeHummer as=""></TypeHummer>`       | -         |
 
 \_\_
 
@@ -39,9 +39,9 @@ So, now all you have to do is type in "type" then select your font size which is
 
 If you never know what `getRelatedOneSpacing` means, or how to add in 4, 8, 12, 16, 24px margins and padding. Then all you have to do is type:
 
-`s4` = 4px,
-`s8` = 8px
-`s24` = 24px
+`s-4` = 4px,
+`s-8` = 8px
+`s-24` = 24px
 and so on, its just easier than trying to work out what `getRelatedOneSpacing` and it just fills everything in for you.
 
 ### List WITHOUT theme wrapper
@@ -50,33 +50,33 @@ Use the following shortcode if you DON'T have your Styled Component wrapped with
 
 | Shortcode | Value | Result                                                          |
 | --------- | ----- | --------------------------------------------------------------- |
-| `s4`      | 4px   | `${({ theme }) => ThemeSelectors.getGroupOneSpacing(theme)}`    |
-| `s8`      | 8px   | `${({ theme }) => ThemeSelectors.getGroupTwoSpacing(theme)}`    |
-| `s12`     | 12px  | `${({ theme }) => ThemeSelectors.getGroupThreeSpacing(theme)}`  |
-| `s16`     | 16px  | `${({ theme }) => ThemeSelectors.getGroupFourSpacing(theme)}`   |
-| `s20`     | 20px  | `${({ theme }) => ThemeSelectors.getGroupFiveSpacing(theme)}`   |
-| `s24`     | 24px  | `${({ theme }) => ThemeSelectors.getGroupSixSpacing(theme)}`    |
-| `s32`     | 32px  | `${({ theme }) => ThemeSelectors.getRelatedOneSpacing(theme)}`  |
-| `s48`     | 48px  | `${({ theme }) => ThemeSelectors.getRelatedTwoSpacing(theme)}`  |
-| `s64`     | 64px  | `${({ theme }) => ThemeSelectors.getDistinctOneSpacing(theme)}` |
-| `s72`     | 72px  | `${({ theme }) => ThemeSelectors.getDistinctTwoSpacing(theme)}` |
+| `s-4`     | 4px   | `${({ theme }) => ThemeSelectors.getGroupOneSpacing(theme)}`    |
+| `s-8`     | 8px   | `${({ theme }) => ThemeSelectors.getGroupTwoSpacing(theme)}`    |
+| `s-12`    | 12px  | `${({ theme }) => ThemeSelectors.getGroupThreeSpacing(theme)}`  |
+| `s-16`    | 16px  | `${({ theme }) => ThemeSelectors.getGroupFourSpacing(theme)}`   |
+| `s-20`    | 20px  | `${({ theme }) => ThemeSelectors.getGroupFiveSpacing(theme)}`   |
+| `s-24`    | 24px  | `${({ theme }) => ThemeSelectors.getGroupSixSpacing(theme)}`    |
+| `s-32`    | 32px  | `${({ theme }) => ThemeSelectors.getRelatedOneSpacing(theme)}`  |
+| `s-48`    | 48px  | `${({ theme }) => ThemeSelectors.getRelatedTwoSpacing(theme)}`  |
+| `s-64`    | 64px  | `${({ theme }) => ThemeSelectors.getDistinctOneSpacing(theme)}` |
+| `s-72`    | 72px  | `${({ theme }) => ThemeSelectors.getDistinctTwoSpacing(theme)}` |
 
 ### List WITH theme wrapper
 
 If you DO have your Styled component wrapped within a theme, please use `short` like so: -
 
-| Shortcode | Value | Result                                          |
-| --------- | ----- | ----------------------------------------------- |
-| `s4short` | 4px   | `${ThemeSelectors.getGroupOneSpacing(theme)}`   |
-| `s8short` | 8px   | `${ThemeSelectors.getGroupTwoSpacing(theme)}`   |
-| `s12hort` | 12px  | `${ThemeSelectors.getGroupThreeSpacing(theme)}` |
-| `s16hort` | 16px  | `$ThemeSelectors.getGroupFourSpacing(theme)}`   |
-| `s20hort` | 20px  | `$ThemeSelectors.getGroupFiveSpacing(theme)}`   |
-| `s24hort` | 24px  | `$ThemeSelectors.getGroupSixSpacing(theme)}`    |
-| `s32hort` | 32px  | `$ThemeSelectors.getRelatedOneSpacing(theme)}`  |
-| `s48hort` | 48px  | `$ThemeSelectors.getRelatedTwoSpacing(theme)}`  |
-| `s64hort` | 64px  | `$ThemeSelectors.getDistinctOneSpacing(theme)}` |
-| `s72hort` | 72px  | `$ThemeSelectors.getDistinctTwoSpacing(theme)}` |
+| Shortcode    | Value | Result                                          |
+| ------------ | ----- | ----------------------------------------------- |
+| `s-4-short`  | 4px   | `${ThemeSelectors.getGroupOneSpacing(theme)}`   |
+| `s-8-short`  | 8px   | `${ThemeSelectors.getGroupTwoSpacing(theme)}`   |
+| `s-12-short` | 12px  | `${ThemeSelectors.getGroupThreeSpacing(theme)}` |
+| `s-16-short` | 16px  | `$ThemeSelectors.getGroupFourSpacing(theme)}`   |
+| `s-20-short` | 20px  | `$ThemeSelectors.getGroupFiveSpacing(theme)}`   |
+| `s-24-short` | 24px  | `$ThemeSelectors.getGroupSixSpacing(theme)}`    |
+| `s-32-short` | 32px  | `$ThemeSelectors.getRelatedOneSpacing(theme)}`  |
+| `s-48-short` | 48px  | `$ThemeSelectors.getRelatedTwoSpacing(theme)}`  |
+| `s-64-short` | 64px  | `$ThemeSelectors.getDistinctOneSpacing(theme)}` |
+| `s-72-short` | 72px  | `$ThemeSelectors.getDistinctTwoSpacing(theme)}` |
 
 ---
 
