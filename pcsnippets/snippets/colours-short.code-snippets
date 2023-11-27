@@ -1,0 +1,8 @@
+{
+  "Styled_Component_Colour_Red_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-red-short",
+    "body": ["${ThemeSelectors.getRed(theme)};"],
+    "description": "create styled component DS value"
+  }
+}

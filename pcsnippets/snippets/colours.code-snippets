@@ -1,0 +1,8 @@
+{
+  "Styled_Component_Colour_Red": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-red",
+    "body": ["${({ theme }) => ThemeSelectors.getRed(theme)};"],
+    "description": "create styled component DS value"
+  }
+}

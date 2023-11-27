@@ -3,7 +3,7 @@
   "displayName": "PCSnippets",
   "description": "test",
   "publisher": "PCSnippets",
-  "version": "1.8.0",
+  "version": "1.10.0",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -19,6 +19,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/colours-short.code-snippets"
       }
     ]
   }
