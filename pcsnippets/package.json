@@ -3,7 +3,7 @@
   "displayName": "PCSnippets",
   "description": "test",
   "publisher": "PCSnippets",
-  "version": "1.4.15",
+  "version": "1.4.20",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -13,12 +13,12 @@
   "contributes": {
     "snippets": [
       {
-        "language": "typescript ",
-        "path": "./typescript/snippets.code-snippets"
+        "language": "typescriptreact",
+        "path": "./snippets/typescript.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./react/snippets.code-snippets"
+        "path": "./snippets/react.code-snippets"
       }
     ]
   }
