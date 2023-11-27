@@ -1,0 +1,117 @@
+{
+
+    //Type
+    "Type-Hummer": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-144",
+        "body": [
+            "<TypeHummer as='$1'></TypeHummer>"
+        ],
+        "
+        description": "Shortcut for Type Hummer"
+    },
+    "Type-Cherokee": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-96",
+        "body": [
+            "<TypeCherokee as='$1'></TypeCherokee>"
+        ],
+        "
+        description": "Shortcut for Type Cherokee"
+    },
+    "Type_Discovery": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-40",
+        "body": [
+            "<TypeDiscovery as='$1'></TypeDiscovery>"
+        ],
+        "
+        description": "Shortcut for Type Discovery"
+    },
+    "Type-Phantom": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-32",
+        "body": [
+            "<TypePhantom as='$1'></TypePhantom>"
+        ],
+        "
+        description": "Shortcut for Type Phantom"
+    },
+    "Type-Insignia": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-26",
+        "body": [
+            "<TypeInsignia as='$1'></TypeInsignia>"
+        ],
+        "
+        description": "Shortcut for Type Insignia"
+    },
+    "Type-Toledo": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-20",
+        "body": [
+            "<TypeToledo as='$1'></TypeToledo>"
+        ],
+        "
+        description": "Shortcut for Type Toledo"
+    },
+    "Type-Beetle": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-18",
+        "body": [
+            "<TypeBeetle as='$1'></TypeBeetle>"
+        ],
+        "
+        description": "Shortcut for Type Beetle"
+    },
+    "Type-Picanto": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-16-picanto",
+        "body": [
+            "<TypePicanto as='$1'></TypePicanto>"
+        ],
+        "
+        description": "Shortcut for Type Picanto"
+    }
+    ,
+    "Type-Fiesta": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-16",
+        "body": [
+            "<TypeFiesta as='$1'></TypeFiesta>"
+        ],
+        "
+        description": "Shortcut for Type Fiesta"
+    }
+    ,
+    "Type-Smart": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-14",
+        "body": [
+            "<TypeSmart as='$1'></TypeSmart>"
+        ],
+        "
+        description": "Shortcut for Type Smart"
+    }
+    ,
+    "Type-Prius": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-14-prius",
+        "body": [
+            "<TypePrius as='$1'></TypePrius>"
+        ],
+        "
+        description": "Shortcut for Type Prius"
+    }
+    ,
+    "Type-Mini": {
+        "scope": "javascript, javascriptreact, typescript, typescriptreact",
+        "prefix": "t-12",
+        "body": [
+            "<TypeMini as='$1'></TypeMini>"
+        ],
+        "
+        description": "Shortcut for Type Mini"
+    }
+   
+}
