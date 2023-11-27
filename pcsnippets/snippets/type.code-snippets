@@ -27,7 +27,7 @@
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-16-uppercase",
     "body": [
-      "<TypeTypePicanto as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeTypePicanto>"
+      "<TypePicanto as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypePicanto>"
     ],
     "description": "Shortcut for Type Picanto"
   },

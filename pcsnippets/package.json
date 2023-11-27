@@ -3,7 +3,7 @@
   "displayName": "PCSnippets",
   "description": "test",
   "publisher": "PCSnippets",
-  "version": "1.10.0",
+  "version": "1.12.0",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -14,11 +14,15 @@
     "snippets": [
       {
         "language": "typescriptreact",
-        "path": "./snippets/typescript.code-snippets"
+        "path": "./snippets/type.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/react.code-snippets"
+        "path": "./snippets/spacing.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/colours.code-snippets"
       },
       {
         "language": "typescriptreact",
