@@ -1,0 +1,170 @@
+{
+  "Styled_Component_Colour_Blue": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-blue",
+    "body": ["${ThemeSelectors.getBlue(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Blue_Light": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-blue-light",
+    "body": ["${ThemeSelectors.getLightBlue(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Blue_Dark": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-blue-dark",
+    "body": ["${ThemeSelectors.getDarkBlue(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Red": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-red",
+    "body": ["${ThemeSelectors.getRed(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Red_Light": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-red-light",
+    "body": ["${ThemeSelectors.getLightRed(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Red_Dark": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-red-dark",
+    "body": ["${ThemeSelectors.getDarkRed(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Green": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-green",
+    "body": ["${ThemeSelectors.getGreen(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Green_Light": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-green-light",
+    "body": ["${ThemeSelectors.getLightGreen(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Green_Dark": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-green-dark",
+    "body": ["${ThemeSelectors.getDarkGreen(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Yellow": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-yellow",
+    "body": ["${ThemeSelectors.getYellow(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Yellow_Light": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-yellow-light",
+    "body": ["${ThemeSelectors.getLightYellow(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Yellow_Dark": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-yellow-dark",
+    "body": ["${ThemeSelectors.getDarkYellow(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Grey": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-grey",
+    "body": ["${ThemeSelectors.getGrey(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Grey_Light": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-grey-light",
+    "body": ["${ThemeSelectors.getLightGrey(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Grey_Dark": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-grey-dark",
+    "body": ["${ThemeSelectors.getDarkGrey(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_White": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-white",
+    "body": ["${ThemeSelectors.getWhite(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Action": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-action",
+    "body": ["${ThemeSelectors.getAction(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Action_Active": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-action-active",
+    "body": ["${ThemeSelectors.getActionActiveColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Action_Hover": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-action-hover",
+    "body": ["${ThemeSelectors.getActionHoverColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Visited": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-visited",
+    "body": ["${ThemeSelectors.getVisitedColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Focus": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-focus",
+    "body": ["${ThemeSelectors.getFocusColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Graphic": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-graphic",
+    "body": ["${ThemeSelectors.getGraphicColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Error": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-error",
+    "body": ["${ThemeSelectors.getErrorColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Success": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-success",
+    "body": ["${ThemeSelectors.getSuccessColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Accent": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-accent",
+    "body": ["${ThemeSelectors.getAccentColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Placeholder": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-placeholder",
+    "body": ["${ThemeSelectors.getPlaceholderColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Title": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-title",
+    "body": ["${ThemeSelectors.getTitleColor(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Copy": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-copy",
+    "body": ["${ThemeSelectors.getCopyColor(theme)};"],
+    "description": "create styled component DS value"
+  }
+}
