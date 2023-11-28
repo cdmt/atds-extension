@@ -1,0 +1,20 @@
+{
+  "Styled_Component_Colour_Blue": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-blue-short",
+    "body": ["${ThemeSelectors.getBlue(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Green": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-green-short",
+    "body": ["${ThemeSelectors.getGreen(theme)};"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Colour_Red_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "c-red-short",
+    "body": ["${ThemeSelectors.getRed(theme)};"],
+    "description": "create styled component DS value"
+  }
+}

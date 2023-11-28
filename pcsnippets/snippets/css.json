@@ -1,0 +1,14 @@
+{
+  "Styled_Component_Group_One": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-4",
+    "body": ["${({ theme }) => ThemeSelectors.getGroupOneSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Two": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-8",
+    "body": ["${({ theme }) => ThemeSelectors.getGroupTwoSpacing(theme)}"],
+    "description": "create styled component DS value"
+  }
+}
