@@ -3,7 +3,7 @@
   "displayName": "PCSnippets",
   "description": "test",
   "publisher": "PCSnippets",
-  "version": "1.61.0",
+  "version": "1.62.0",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -19,6 +19,14 @@
       {
         "language": "typescript",
         "path": "./snippets/css.colours.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/css.spacing.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/css.spacing-short.json"
       },
       {
         "language": "typescriptreact",

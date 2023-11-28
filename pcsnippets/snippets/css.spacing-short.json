@@ -1,0 +1,62 @@
+{
+  "Styled_Component_Group_One_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-4-short",
+    "body": ["$ThemeSelectors.getGroupOneSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Two_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-8-short",
+    "body": ["$ThemeSelectors.getGroupTwoSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Three_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-12-short",
+    "body": ["$ThemeSelectors.getGroupThreeSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Four_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-16-short",
+    "body": ["$ThemeSelectors.getGroupFourSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Five_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-20-short",
+    "body": ["$ThemeSelectors.getGroupFiveSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Six_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-24-short",
+    "body": ["$ThemeSelectors.getGroupSixSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Related_One_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-32-short",
+    "body": ["$ThemeSelectors.getRelatedOneSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Related_Two_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-48-short",
+    "body": ["$ThemeSelectors.getRelatedTwoSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Distinct_One_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-64-short",
+    "body": ["$ThemeSelectors.getDistinctOneSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Distinct_Two_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-72-short",
+    "body": ["$ThemeSelectors.getDistinctTwoSpacing(theme)}"],
+    "description": "create styled component DS value"
+  }
+}
