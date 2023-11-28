@@ -164,8 +164,6 @@
   "Styled_Component_Colour_Copy": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-copy",
-    "prefix": "c-copy",
-    "prefix": "c-copy",
     "body": ["${({ theme }) => {ThemeSelectors.getCopyColor(theme)};"],
     "description": "create styled component DS value"
   }
