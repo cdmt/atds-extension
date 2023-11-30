@@ -1,5 +1,5 @@
 {
-  "Type-Mini": {
+  "Type Mini": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-12",
     "body": [
@@ -7,7 +7,7 @@
     ],
     "description": "Shortcut for Type Mini"
   },
-  "Type-Prius": {
+  "Type Prius": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-14-uppercase",
     "body": [
@@ -15,7 +15,7 @@
     ],
     "description": "Shortcut for Type Prius"
   },
-  "Type-Smart": {
+  "Type Smart": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-14",
     "body": [
@@ -23,7 +23,7 @@
     ],
     "description": "Shortcut for Type Smart"
   },
-  "Type-Fiesta": {
+  "Type Fiesta": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-16",
     "body": [
@@ -31,7 +31,7 @@
     ],
     "description": "Shortcut for Type Fiesta"
   },
-  "Type-Picanto": {
+  "Type Picanto": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-16-uppercase",
     "body": [
@@ -39,7 +39,7 @@
     ],
     "description": "Shortcut for Type Picanto"
   },
-  "Type-Beetle": {
+  "Type Beetle": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-18",
     "body": [
@@ -47,7 +47,7 @@
     ],
     "description": "Shortcut for Type Beetle"
   },
-  "Type-Toledo": {
+  "Type Toledo": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-20",
     "body": [
@@ -55,7 +55,7 @@
     ],
     "description": "Shortcut for Type Toledo"
   },
-  "Type-Insignia": {
+  "Type Insignia": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-26",
     "body": [
@@ -63,7 +63,7 @@
     ],
     "description": "Shortcut for Type Insignia"
   },
-  "Type-Phantom": {
+  "Type Phantom": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-32",
     "body": [
@@ -71,7 +71,7 @@
     ],
     "description": "Shortcut for Type Phantom"
   },
-  "Type-Discovery": {
+  "Type Discovery": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-40",
     "body": [
@@ -79,7 +79,7 @@
     ],
     "description": "Shortcut for Type Discovery"
   },
-  "Type-Cherokee": {
+  "Type Cherokee": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-96",
     "body": [
@@ -87,7 +87,7 @@
     ],
     "description": "Shortcut for Type Cherokee"
   },
-  "Type-Hummer": {
+  "Type Hummer": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "t-144",
     "body": [
@@ -95,7 +95,7 @@
     ],
     "description": "Shortcut for Type Hummer"
   },
-  "Spacing-4px": {
+  "Spacing 4px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-4",
     "body": [
@@ -103,7 +103,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-8px": {
+  "Spacing 8px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-8",
     "body": [
@@ -111,7 +111,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-12px": {
+  "Spacing 12px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-12",
     "body": [
@@ -119,7 +119,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-16px": {
+  "Spacing 16px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-16",
     "body": [
@@ -127,7 +127,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-20px": {
+  "Spacing 20px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-20",
     "body": [
@@ -135,7 +135,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-24px": {
+  "Spacing 24px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-24",
     "body": [
@@ -143,7 +143,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-32px": {
+  "Spacing 32px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-32",
     "body": [
@@ -151,7 +151,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-48px": {
+  "Spacing 48px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-48",
     "body": [
@@ -159,7 +159,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-64px": {
+  "Spacing 64px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-64",
     "body": [
@@ -167,7 +167,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-72px": {
+  "Spacing 72px": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-72",
     "body": [
@@ -175,7 +175,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-4px-short": {
+  "Spacing 4px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-4-short",
     "body": [
@@ -183,7 +183,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-8px-short": {
+  "Spacing 8px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-8-short",
     "body": [
@@ -191,7 +191,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-12px-short": {
+  "Spacing 12px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-12-short",
     "body": [
@@ -199,7 +199,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-16px-short": {
+  "Spacing 16px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-16-short",
     "body": [
@@ -207,7 +207,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-20px-short": {
+  "Spacing 20px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-20-short",
     "body": [
@@ -215,7 +215,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-24px-short": {
+  "Spacing 24px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-24-short",
     "body": [
@@ -223,7 +223,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-32px-short": {
+  "Spacing 32px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-32-short",
     "body": [
@@ -231,7 +231,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-48px-short": {
+  "Spacing 48px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-48-short",
     "body": [
@@ -239,7 +239,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-64px-short": {
+  "Spacing 64px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-64-short",
     "body": [
@@ -247,7 +247,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Spacing-72px-short": {
+  "Spacing 72px short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "s-72-short",
     "body": [
@@ -255,7 +255,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-blue": {
+  "Color Blue": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-blue",
     "body": [
@@ -263,7 +263,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-blue": {
+  "Color Light Blue": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-blue-light",
     "body": [
@@ -271,7 +271,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-blue": {
+  "Color Dark Blue": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-blue-dark",
     "body": [
@@ -279,7 +279,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-red": {
+  "Color Red": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-red",
     "body": [
@@ -287,7 +287,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-red": {
+  "Color Light Red": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-red-light",
     "body": [
@@ -295,7 +295,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-red": {
+  "Color Dark Red": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-red-dark",
     "body": [
@@ -303,7 +303,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-green": {
+  "Color Green": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-green",
     "body": [
@@ -311,7 +311,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-green": {
+  "Color Light Green": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-green-light",
     "body": [
@@ -319,7 +319,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-green": {
+  "Color Dark Green": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-green-dark",
     "body": [
@@ -327,7 +327,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-yellow": {
+  "Color Yellow": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-yellow",
     "body": [
@@ -335,7 +335,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-yellow": {
+  "Color Light Yellow": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-yellow-light",
     "body": [
@@ -343,7 +343,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-yellow": {
+  "Color Dark Yellow": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-yellow-dark",
     "body": [
@@ -351,7 +351,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-grey": {
+  "Color Grey": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-grey",
     "body": [
@@ -359,7 +359,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-grey": {
+  "Color Light Grey": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-grey-light",
     "body": [
@@ -367,7 +367,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-grey": {
+  "Color Dark Grey": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-grey-dark",
     "body": [
@@ -375,7 +375,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-white": {
+  "Color White": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-white",
     "body": [
@@ -383,7 +383,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-action": {
+  "Color Action": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-action",
     "body": [
@@ -391,7 +391,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-action-active": {
+  "Color Action Active": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-action-active",
     "body": [
@@ -399,7 +399,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-action-hover": {
+  "Color Action Hover": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-action-hover",
     "body": [
@@ -407,7 +407,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-visited": {
+  "Color Visited": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-visited",
     "body": [
@@ -415,7 +415,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-focus": {
+  "Color Focus": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-focus",
     "body": [
@@ -423,7 +423,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-graphic": {
+  "Color Graphic": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-graphic",
     "body": [
@@ -431,7 +431,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-error": {
+  "Color Error": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-error",
     "body": [
@@ -439,7 +439,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-sucess": {
+  "Color Sucess": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-success",
     "body": [
@@ -447,7 +447,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-accent": {
+  "Color Accent": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-accent",
     "body": [
@@ -455,7 +455,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-placeholder": {
+  "Color Placeholder": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-placeholder",
     "body": [
@@ -463,7 +463,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-title": {
+  "Color Title": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-title",
     "body": [
@@ -471,7 +471,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-copy": {
+  "Color Copy": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-copy",
     "body": [
@@ -479,7 +479,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-blue-short": {
+  "Color Blue Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-blue-short",
     "body": [
@@ -487,7 +487,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-blue-short": {
+  "Color Light Blue Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-blue-light-short",
     "body": [
@@ -495,7 +495,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-blue-short": {
+  "Color Dark Blue Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-blue-dark-short",
     "body": [
@@ -503,7 +503,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-red-short": {
+  "Color Red Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-red-short",
     "body": [
@@ -511,7 +511,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-red-short": {
+  "Color Light Red Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-red-light-short",
     "body": [
@@ -519,7 +519,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-red-short": {
+  "Color Dark Red Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-red-dark-short",
     "body": [
@@ -527,7 +527,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-green-short": {
+  "Color Green Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-green-short",
     "body": [
@@ -535,7 +535,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-green-short": {
+  "Color Light Green Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-green-light-short",
     "body": [
@@ -543,7 +543,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-green-short": {
+  "Color Dark Green Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-green-dark-short",
     "body": [
@@ -551,7 +551,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-yellow-short": {
+  "Color Yellow Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-yellow-short",
     "body": [
@@ -559,7 +559,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-yellow-short": {
+  "Color Light Yellow Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-yellow-light-short",
     "body": [
@@ -567,7 +567,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-yellow-short": {
+  "Color Dark Yellow Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-yellow-dark-short",
     "body": [
@@ -575,7 +575,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-grey-short": {
+  "Color Grey Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-grey-short",
     "body": [
@@ -583,7 +583,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-light-grey-short": {
+  "Color Light Grey Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-grey-light-short",
     "body": [
@@ -591,7 +591,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-dark-grey-short": {
+  "Color Dark Grey Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-grey-dark-short",
     "body": [
@@ -599,7 +599,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-white-short": {
+  "Color White Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-white-short",
     "body": [
@@ -607,7 +607,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-action-short": {
+  "Color Action Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-action-short",
     "body": [
@@ -615,7 +615,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-action-active-short": {
+  "Color Action Active Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-action-active-short",
     "body": [
@@ -623,7 +623,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-action-hover-short": {
+  "Color Action Hover Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-action-hover-short",
     "body": [
@@ -631,7 +631,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-visited-short": {
+  "Color Visited Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-visited-short",
     "body": [
@@ -639,7 +639,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-focus-short": {
+  "Color Focus Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-focus-short",
     "body": [
@@ -647,7 +647,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-graphic-short": {
+  "Color Graphic Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-graphic-short",
     "body": [
@@ -655,7 +655,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-error-short": {
+  "Color Error Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-error-short",
     "body": [
@@ -663,7 +663,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-success-short": {
+  "Color Success Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-success-short",
     "body": [
@@ -671,7 +671,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-accent-short": {
+  "Color Accent Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-accent-short",
     "body": [
@@ -679,7 +679,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-placeholder-short": {
+  "Color Placeholder Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-placeholder-short",
     "body": [
@@ -687,7 +687,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-title-short": {
+  "Color Title Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-title-short",
     "body": [
@@ -695,7 +695,7 @@
     ],
     "description": "create styled component DS value"
   },
-  "Color-copy-short": {
+  "Color Copy Short": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "c-copy-short",
     "body": [
