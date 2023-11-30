@@ -3,9 +3,9 @@
   "displayName": "PCSnippets",
   "description": "test",
   "publisher": "PCSnippets",
-  "version": "1.65.0",
+  "version": "1.76.0",
   "engines": {
-    "vscode": "^1.84.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Snippets"
@@ -13,24 +13,28 @@
   "contributes": {
     "snippets": [
       {
-        "language": "typescript",
-        "path": "./snippets/css.json"
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/css.colours-short.json"
+        "path": "./snippets/snippets.json"
       },
       {
-        "language": "typescript",
-        "path": "./snippets/css.spacing.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/css.spacing-short.json"
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/type.code-snippets"
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "styled-css",
+        "path": "./snippets/snippets.json"
       }
     ]
   }

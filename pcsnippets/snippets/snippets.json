@@ -1,0 +1,146 @@
+{
+  "Type-Mini": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-12",
+    "body": ["<TypeMini as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeMini>"],
+    "description": "Shortcut for Type Mini"
+  },
+  "Type-Prius": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-14-uppercase",
+    "body": ["<TypePrius as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypePrius>"],
+    "description": "Shortcut for Type Prius"
+  },
+  "Type-Smart": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-14",
+    "body": ["<TypeSmart as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeSmart>"],
+    "description": "Shortcut for Type Smart"
+  },
+  "Type-Fiesta": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-16",
+    "body": ["<TypeFiesta as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeFiesta>"],
+    "description": "Shortcut for Type Fiesta"
+  },
+  "Type-Picanto": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-16-uppercase",
+    "body": [
+      "<TypePicanto as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypePicanto>"
+    ],
+    "description": "Shortcut for Type Picanto"
+  },
+  "Type-Beetle": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-18",
+    "body": [
+      "<TypeTypeBeetle as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeTypeBeetle>"
+    ],
+    "description": "Shortcut for Type Beetle"
+  },
+  "Type-Toledo": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-20",
+    "body": ["<TypeToledo as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeToledo>"],
+    "description": "Shortcut for Type Toledo"
+  },
+  "Type-Insignia": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-26",
+    "body": [
+      "<TypeInsignia as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeInsignia>"
+    ],
+    "description": "Shortcut for Type Insignia"
+  },
+  "Type-Phantom": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-32",
+    "body": [
+      "<TypePhantom as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypePhantom>"
+    ],
+    "description": "Shortcut for Type Phantom"
+  },
+  "Type-Discovery": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-40",
+    "body": [
+      "<TypeDiscovery as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeDiscovery>"
+    ],
+    "description": "Shortcut for Type Discovery"
+  },
+  "Type-Cherokee": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-96",
+    "body": [
+      "<TypeCherokee as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeCherokee>"
+    ],
+    "description": "Shortcut for Type Cherokee"
+  },
+  "Type-Hummer": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "t-144",
+    "body": ["<TypeHummer as='${1|p,span,h1,h2,h3,h4,h5,h6|}'>$0</TypeHummer>"],
+    "description": "Shortcut for Type Hummer"
+  },
+  "Styled_Component_Group_One_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-4-short",
+    "body": ["$ThemeSelectors.getGroupOneSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Two_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-8-short",
+    "body": ["$ThemeSelectors.getGroupTwoSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Three_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-12-short",
+    "body": ["$ThemeSelectors.getGroupThreeSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Four_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-16-short",
+    "body": ["$ThemeSelectors.getGroupFourSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Five_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-20-short",
+    "body": ["$ThemeSelectors.getGroupFiveSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Group_Six_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-24-short",
+    "body": ["$ThemeSelectors.getGroupSixSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Related_One_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-32-short",
+    "body": ["$ThemeSelectors.getRelatedOneSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Related_Two_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-48-short",
+    "body": ["$ThemeSelectors.getRelatedTwoSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Distinct_One_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-64-short",
+    "body": ["$ThemeSelectors.getDistinctOneSpacing(theme)}"],
+    "description": "create styled component DS value"
+  },
+  "Styled_Component_Distinct_Two_Short": {
+    "scope": "javascript, javascriptreact, typescript, typescriptreact",
+    "prefix": "s-72-short",
+    "body": ["$ThemeSelectors.getDistinctTwoSpacing(theme)}"],
+    "description": "create styled component DS value"
+  }
+}
