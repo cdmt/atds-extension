@@ -206,169 +206,169 @@
   "Color Blue": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cBlue",
-    "body": ["${({ theme }) => {ThemeSelectors.getBlue(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getBlue(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Light Blue": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cBlueLight",
-    "body": ["${({ theme }) => {ThemeSelectors.getLightBlue(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getLightBlue(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Dark Blue": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cBlueDark",
-    "body": ["${({ theme }) => {ThemeSelectors.getDarkBlue(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getDarkBlue(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Red": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cRed",
-    "body": ["${({ theme }) => {ThemeSelectors.getRed(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getRed(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Light Red": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cRedLight",
-    "body": ["${({ theme }) => {ThemeSelectors.getLightRed(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getLightRed(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Dark Red": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cRedDark",
-    "body": ["${({ theme }) => {ThemeSelectors.getDarkRed(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getDarkRed(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Green": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cGreen",
-    "body": ["${({ theme }) => {ThemeSelectors.getGreen(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getGreen(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Light Green": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cGreenLight",
-    "body": ["${({ theme }) => {ThemeSelectors.getLightGreen(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getLightGreen(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Dark Green": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cGreenDark",
-    "body": ["${({ theme }) => {ThemeSelectors.getDarkGreen(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getDarkGreen(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Yellow": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cYellow",
-    "body": ["${({ theme }) => {ThemeSelectors.getYellow(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getYellow(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Light Yellow": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cYellowLight",
-    "body": ["${({ theme }) => {ThemeSelectors.getLightYellow(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getLightYellow(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Dark Yellow": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cYellowDark",
-    "body": ["${({ theme }) => {ThemeSelectors.getDarkYellow(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getDarkYellow(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Grey": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cGrey",
-    "body": ["${({ theme }) => {ThemeSelectors.getGrey(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getGrey(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Light Grey": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cGreyLight",
-    "body": ["${({ theme }) => {ThemeSelectors.getLightGrey(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getLightGrey(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Dark Grey": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cGreyDark",
-    "body": ["${({ theme }) => {ThemeSelectors.getDarkGrey(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getDarkGrey(theme)};"],
     "description": "create styled component DS value"
   },
   "Color White": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cWhite",
-    "body": ["${({ theme }) => {ThemeSelectors.getWhite(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getWhite(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Action": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cAction",
-    "body": ["${({ theme }) => {ThemeSelectors.getAction(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getAction(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Action Active": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cActionActive",
-    "body": ["${({ theme }) => {ThemeSelectors.getActionActiveColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getActionActiveColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Action Hover": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cActionHover",
-    "body": ["${({ theme }) => {ThemeSelectors.getActionHoverColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getActionHoverColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Visited": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cVisited",
-    "body": ["${({ theme }) => {ThemeSelectors.getVisitedColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getVisitedColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Focus": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cFocus",
-    "body": ["${({ theme }) => {ThemeSelectors.getFocusColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getFocusColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Graphic": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cGraphic",
-    "body": ["${({ theme }) => {ThemeSelectors.getGraphicColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getGraphicColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Error": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cError",
-    "body": ["${({ theme }) => {ThemeSelectors.getErrorColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getErrorColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Sucess": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cSuccess",
-    "body": ["${ThemeSelectors.getSuccessColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getSuccessColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Accent": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cAccent",
-    "body": ["${({ theme }) => {ThemeSelectors.getAccentColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getAccentColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Placeholder": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cPlaceholder",
-    "body": ["${({ theme }) => {ThemeSelectors.getPlaceholderColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getPlaceholderColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Title": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cTitle",
-    "body": ["${({ theme }) => {ThemeSelectors.getTitleColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getTitleColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Copy": {
     "scope": "javascript, javascriptreact, typescript, typescriptreact",
     "prefix": "cCopy",
-    "body": ["${({ theme }) => {ThemeSelectors.getCopyColor(theme)};"],
+    "body": ["${({ theme }) => ThemeSelectors.getCopyColor(theme)};"],
     "description": "create styled component DS value"
   },
   "Color Blue Short": {
