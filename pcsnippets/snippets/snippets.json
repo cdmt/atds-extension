@@ -553,5 +553,27 @@
     "prefix": "scTheme",
     "body": ["${({ theme }) => css`", "\t$0", "`}"],
     "description": "Styled Component with Theme"
+  },
+  "React Link with Event Handling": {
+    "prefix": "scLink",
+    "body": [
+      "<Link",
+      "  href={`#`}",
+      "  routerLink={false}",
+      "  onInteraction={(e: SyntheticEvent) => {",
+      "    e.preventDefault();",
+      "    setVisible(true);",
+      "  }}",
+      "  attributes={{",
+      "    [dataAttrGUI]: getDataGuiPrefixedValue(\"attr-here\"),",
+      "    \"aria-label\": \"helpful text here\",",
+      "  }}",
+      "  trackData={{",
+      "    eventEntity: buildUiInteractionEntity(\"track-here\", \"click\"),",
+      "  }}>",
+      "  Link text here",
+      "</Link>"
+    ],
+    "description": "React Link with Event Handling"
   }
 }
