@@ -558,7 +558,7 @@
     "prefix": "scLink",
     "body": [
       "<Link",
-      "  href={`#`}",
+      "  href={`${1:url}`}",
       "  routerLink={false}",
       "  onInteraction={(e: SyntheticEvent) => {",
       "    e.preventDefault();",
@@ -571,7 +571,7 @@
       "  trackData={{",
       "    eventEntity: buildUiInteractionEntity(\"track-here\", \"click\"),",
       "  }}>",
-      "  ${1:Link name}",
+      "  ${2:Link name}",
       "</Link>"
     ],
     "description": "React Link with Event Handling"
