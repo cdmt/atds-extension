@@ -595,5 +595,64 @@
       "/>"
     ],
     "description": "React Button Component"
+  },
+  "React Input Component": {
+    "prefix": "scInput",
+    "body": [
+      "<Input",
+      "  additionalClass=\"test-class\"",
+      "  attributes={{",
+      "    'data-testid': 'data-gui-test'",
+      "  }}",
+      "  errorText=\"\"",
+      "  fieldType=\"${1|text, number, url, search, tel, email, password|}\"",
+      "  helpText=\"\"",
+      "  id=\"test\"",
+      "  label=\"Label\"",
+      "  name=\"${2:Input name}\"",
+      "  prefix=\"\"",
+      "  suffix=\"\"",
+      "  themeType=\"DEFAULT\"",
+      "/>"
+    ],
+    "description": "React Input Component"
+  },
+  "React Selection Component": {
+    "prefix": "scToggleSwitch",
+    "body": [
+      "<Selection",
+      "  additionalClass=\"test-class\"",
+      "  attributes={{",
+      "    placeholder: 'Placeholder'",
+      "  }}",
+      "  defaultChecked",
+      "  errorText=\"\"",
+      "  fieldType=\"switch\"",
+      "  helpText=\"\"",
+      "  id=\"switch\"",
+      "  label=\"${1:Label name}\"",
+      "  name=\"switch\"",
+      "/>"
+    ],
+    "description": "React Selection Component"
+  },
+  "React Checkbox Selection Component": {
+    "prefix": "scCheckbox",
+    "body": [
+      "<Selection",
+      "  additionalClass=\"test-class\"",
+      "  attributes={{",
+      "    placeholder: 'Placeholder'",
+      "  }}",
+      "  defaultChecked",
+      "  errorText=\"This is a error message\"",
+      "  fieldType=\"checkbox\"",
+      "  helpText={<>${1:Help text}{' '}<a href=\"${2:url}\">${3:Link text}</a></>}",
+      "  id=\"checkbox\"",
+      "  label=\"${0:Label name}\"",
+      "  name=\"checkbox\"",
+      "/>"
+    ],
+    "description": "React Checkbox Selection Component"
   }
 }
