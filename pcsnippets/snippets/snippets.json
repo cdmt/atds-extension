@@ -554,7 +554,7 @@
     "body": ["${({ theme }) => css`", "\t$0", "`}"],
     "description": "Styled Component with Theme"
   },
-  "React Link with Event Handling": {
+  "ATDS Link Component": {
     "prefix": "scLink",
     "body": [
       "<Link",
@@ -571,9 +571,29 @@
       "  trackData={{",
       "    eventEntity: buildUiInteractionEntity(\"track-here\", \"click\"),",
       "  }}>",
-      "  Link text here",
+      "  ${1:Link name}",
       "</Link>"
     ],
     "description": "React Link with Event Handling"
+  },
+  "ATDS Button Component": {
+    "prefix": "scButton",
+    "body": [
+      "<Button",
+      "  displayType=\"${1|primary, secondary, tertiory|}\"",
+      "  text=\"${2:ComponentName}\"",
+      "  url={url}",
+      "  className=\"your-class-name-here\"",
+      "  additionalClass=\"if-needed\"",
+      "  fullWidth={true}",
+      "  data-gui=\"data-gui\"",
+      "  trackingData={{",
+      "    label: \"label here\",",
+      "    category: TrackingCategory.STANDARD,",
+      "    action: TrackingAction.CLICK,",
+      "  }}",
+      "/>"
+    ],
+    "description": "React Button Component"
   }
 }
