@@ -4,6 +4,7 @@
   "description": "test",
   "publisher": "PCSnippets",
   "version": "1.91.0",
+  "icon": "image/atds-snippets-icon.png",
   "engines": {
     "vscode": "^1.70.0"
   },

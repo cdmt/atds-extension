@@ -11,27 +11,27 @@ If you're having problems finding the right Styled component font to use from a 
 For example, in Figma a heading is set to 40px, however you don't know what font name/type that is equivalent to.
 
 So, all you need to do now is starting typing the following:
-`type16`
+`t16`
 
 This will now output:
 `<TypeFiesta as="p">your text here</TypeFiesta>`
 
 So, now all you have to do is type in "type" then select your font size which is used in Figma and it will give you the correct font to use. This saves time and effort trying to work out what the right font to use is. It also bridges that gap between design and dev and avoids confusion.
 
-| Shortcode      | Value | Result                                  | Caveat    |
-| -------------- | ----- | --------------------------------------- | --------- |
-| `t-12`         | 12px  | `<TypeMini as=""></TypeMini>`           | -         |
-| `t-14-prius`   | 14px  | `<TypePrius as=""></TypePrius>`         | Uppercase |
-| `t-14`         | 14px  | `<TypeSmart as=""></TypeSmart>`         | -         |
-| `t-16`         | 16px  | `<TypeFiesta as=""></TypeFiesta>`       | -         |
-| `t-16-picanto` | 16px  | `<TypePicanto as=""></TypePicanto>`     | Uppercase |
-| `t-18`         | 18px  | `<TypeBeetle as=""></TypeBeetle>`       | -         |
-| `t-20`         | 20px  | `<TypeToledo as=""></TypeToledo>`       | -         |
-| `t-26`         | 26px  | `<TypeInsignia as=""></TypeInsignia>`   | -         |
-| `t-32`         | 32px  | `<TypePhantom as=""></TypePhantom>`     | -         |
-| `t-40`         | 40px  | `<TypeDiscovery as=""></TypeDiscovery>` | -         |
-| `t-96`         | 96px  | `<TypeCherokee as=""></TypeCherokee>`   | -         |
-| `t-144`        | 144px | `<TypeHummer as=""></TypeHummer>`       | -         |
+| Shortcode    | Value | Result                                  | Caveat    |
+| ------------ | ----- | --------------------------------------- | --------- |
+| `t12`        | 12px  | `<TypeMini as=""></TypeMini>`           | -         |
+| `t14prius`   | 14px  | `<TypePrius as=""></TypePrius>`         | Uppercase |
+| `t14`        | 14px  | `<TypeSmart as=""></TypeSmart>`         | -         |
+| `t16`        | 16px  | `<TypeFiesta as=""></TypeFiesta>`       | -         |
+| `t16picanto` | 16px  | `<TypePicanto as=""></TypePicanto>`     | Uppercase |
+| `t18`        | 18px  | `<TypeBeetle as=""></TypeBeetle>`       | -         |
+| `t20`        | 20px  | `<TypeToledo as=""></TypeToledo>`       | -         |
+| `t26`        | 26px  | `<TypeInsignia as=""></TypeInsignia>`   | -         |
+| `t32`        | 32px  | `<TypePhantom as=""></TypePhantom>`     | -         |
+| `t40`        | 40px  | `<TypeDiscovery as=""></TypeDiscovery>` | -         |
+| `t96`        | 96px  | `<TypeCherokee as=""></TypeCherokee>`   | -         |
+| `t144`       | 144px | `<TypeHummer as=""></TypeHummer>`       | -         |
 
 ---
 
@@ -39,71 +39,168 @@ So, now all you have to do is type in "type" then select your font size which is
 
 If you never know what `getRelatedOneSpacing` means, or how to add in 4, 8, 12, 16, 24px margins and padding. Then all you have to do is type:
 
-`s-4` = 4px,
-`s-8` = 8px
-`s-24` = 24px
-and so on, its just easier than trying to work out what `getRelatedOneSpacing` and it just fills everything in for you.
+`s4` = 4px,
+`s8` = 8px
+`s24` = 24px
+its just easier than trying to work out what `getRelatedOneSpacing` and it just fills everything in for you.
 
-> **Note:** If you you're using a theme wrapper, use `-short` ie: `s-8-short` to output the following `$ThemeSelectors.getGroupTwoSpacing(theme)}`
+> **Note:** If you you're using a theme wrapper, use `-short` ie: `s8short` to output the following `$ThemeSelectors.getGroupTwoSpacing(theme)}`
 
 | Shortcode | Value | Result                                                          |
 | --------- | ----- | --------------------------------------------------------------- |
-| `s-4`     | 4px   | `${({ theme }) => ThemeSelectors.getGroupOneSpacing(theme)}`    |
-| `s-8`     | 8px   | `${({ theme }) => ThemeSelectors.getGroupTwoSpacing(theme)}`    |
-| `s-12`    | 12px  | `${({ theme }) => ThemeSelectors.getGroupThreeSpacing(theme)}`  |
-| `s-16`    | 16px  | `${({ theme }) => ThemeSelectors.getGroupFourSpacing(theme)}`   |
-| `s-20`    | 20px  | `${({ theme }) => ThemeSelectors.getGroupFiveSpacing(theme)}`   |
-| `s-24`    | 24px  | `${({ theme }) => ThemeSelectors.getGroupSixSpacing(theme)}`    |
-| `s-32`    | 32px  | `${({ theme }) => ThemeSelectors.getRelatedOneSpacing(theme)}`  |
-| `s-48`    | 48px  | `${({ theme }) => ThemeSelectors.getRelatedTwoSpacing(theme)}`  |
-| `s-64`    | 64px  | `${({ theme }) => ThemeSelectors.getDistinctOneSpacing(theme)}` |
-| `s-72`    | 72px  | `${({ theme }) => ThemeSelectors.getDistinctTwoSpacing(theme)}` |
+| `s4`      | 4px   | `${({ theme }) => ThemeSelectors.getGroupOneSpacing(theme)}`    |
+| `s8`      | 8px   | `${({ theme }) => ThemeSelectors.getGroupTwoSpacing(theme)}`    |
+| `s12`     | 12px  | `${({ theme }) => ThemeSelectors.getGroupThreeSpacing(theme)}`  |
+| `s16`     | 16px  | `${({ theme }) => ThemeSelectors.getGroupFourSpacing(theme)}`   |
+| `s20`     | 20px  | `${({ theme }) => ThemeSelectors.getGroupFiveSpacing(theme)}`   |
+| `s24`     | 24px  | `${({ theme }) => ThemeSelectors.getGroupSixSpacing(theme)}`    |
+| `s32`     | 32px  | `${({ theme }) => ThemeSelectors.getRelatedOneSpacing(theme)}`  |
+| `s48`     | 48px  | `${({ theme }) => ThemeSelectors.getRelatedTwoSpacing(theme)}`  |
+| `s64`     | 64px  | `${({ theme }) => ThemeSelectors.getDistinctOneSpacing(theme)}` |
+| `s72`     | 72px  | `${({ theme }) => ThemeSelectors.getDistinctTwoSpacing(theme)}` |
 
 ---
 
 # Colors
 
-> **Note:** If you you're using a theme wrapper, use `-short` ie: `c-blue-short` to output the following `$ThemeSelectors.getBlue(theme)}`
+> **Note:** If you you're using a theme wrapper, use `-short` ie: `cBlueShort` to output the following `$ThemeSelectors.getBlue(theme)}`
 
-| ShortCode        | Value        | Result                                                   |
-| ---------------- | ------------ | -------------------------------------------------------- |
-| `c-blue`         | blue         | `${({ theme }) => ThemeSelectors.getBlue(theme)}`        |
-| `c-blue-light`   | blue light   | `${({ theme }) => ThemeSelectors.getLightBlue(theme)}`   |
-| `c-blue-dark`    | blue dark    | `${({ theme }) => ThemeSelectors.getDarkBlue(theme)}`    |
-| `c-red`          | red          | `${({ theme }) => ThemeSelectors.getRed(theme)}`         |
-| `c-red-light`    | red light    | `${({ theme }) => ThemeSelectors.getLightRed(theme)}`    |
-| `c-red-dark`     | red dark     | `${({ theme }) => ThemeSelectors.getDarkRed(theme)}`     |
-| `c-green`        | green        | `${({ theme }) => ThemeSelectors.getGreen(theme)}`       |
-| `c-green-light`  | green light  | `${({ theme }) => ThemeSelectors.getLightGreen(theme)}`  |
-| `c-green-dark`   | green dark   | `${({ theme }) => ThemeSelectors.getDarkGreen(theme)}`   |
-| `c-yellow`       | yellow       | `${({ theme }) => ThemeSelectors.getYellow(theme)}`      |
-| `c-yellow-light` | yellow light | `${({ theme }) => ThemeSelectors.getLightYellow(theme)}` |
-| `c-yellow-dark`  | yellow dark  | `${({ theme }) => ThemeSelectors.getDarkYellow(theme)}`  |
-| `c-grey`         | grey         | `${({ theme }) => ThemeSelectors.getGrey(theme)}`        |
-| `c-grey-light`   | grey light   | `${({ theme }) => ThemeSelectors.getLightGrey(theme)}`   |
-| `c-grey-dark`    | grey dark    | `${({ theme }) => ThemeSelectors.getDarkGrey(theme)}`    |
-| `c-white`        | white        | `${({ theme }) => ThemeSelectors.getWhite(theme)}`       |
+| ShortCode      | Value        | Result                                                   |
+| -------------- | ------------ | -------------------------------------------------------- |
+| `cBlue`        | blue         | `${({ theme }) => ThemeSelectors.getBlue(theme)}`        |
+| `cBlueLight`   | blue light   | `${({ theme }) => ThemeSelectors.getLightBlue(theme)}`   |
+| `cBlueDark`    | blue dark    | `${({ theme }) => ThemeSelectors.getDarkBlue(theme)}`    |
+| `cRed`         | red          | `${({ theme }) => ThemeSelectors.getRed(theme)}`         |
+| `cRedLight`    | red light    | `${({ theme }) => ThemeSelectors.getLightRed(theme)}`    |
+| `cRedDark`     | red dark     | `${({ theme }) => ThemeSelectors.getDarkRed(theme)}`     |
+| `cGreen`       | green        | `${({ theme }) => ThemeSelectors.getGreen(theme)}`       |
+| `cGreenLight`  | green light  | `${({ theme }) => ThemeSelectors.getLightGreen(theme)}`  |
+| `cGreenDark`   | green dark   | `${({ theme }) => ThemeSelectors.getDarkGreen(theme)}`   |
+| `cYellow`      | yellow       | `${({ theme }) => ThemeSelectors.getYellow(theme)}`      |
+| `cYellowLight` | yellow light | `${({ theme }) => ThemeSelectors.getLightYellow(theme)}` |
+| `cYellowDark`  | yellow dark  | `${({ theme }) => ThemeSelectors.getDarkYellow(theme)}`  |
+| `cGrey`        | grey         | `${({ theme }) => ThemeSelectors.getGrey(theme)}`        |
+| `cGreyLight`   | grey light   | `${({ theme }) => ThemeSelectors.getLightGrey(theme)}`   |
+| `cGreyDark`    | grey dark    | `${({ theme }) => ThemeSelectors.getDarkGrey(theme)}`    |
+| `cWhite`       | white        | `${({ theme }) => ThemeSelectors.getWhite(theme)}`       |
 
 ---
 
 ## More colour values:
 
-| ShortCode         | Result                                                         |
-| ----------------- | -------------------------------------------------------------- |
-| `c-action`        | `${({ theme }) => ThemeSelectors.getAction(theme)}`            |
-| `c-action-active` | `${({ theme }) => ThemeSelectors.getActionActiveColor(theme)}` |
-| `c-action-hover`  | `${({ theme }) => ThemeSelectors.getActionHoverColor(theme)}`  |
-| `c-visited`       | `${({ theme }) => ThemeSelectors.getVisitedColor(theme)}`      |
-| `c-focus`         | `${({ theme }) => ThemeSelectors.getFocusColor(theme)}`        |
-| `c-graphic`       | `${({ theme }) => ThemeSelectors.getGraphicColor(theme)}`      |
-| `c-error`         | `${({ theme }) => ThemeSelectors.getErrorColor(theme)}`        |
-| `c-success`       | `${({ theme }) => ThemeSelectors.getSuccessColor(theme)}`      |
-| `c-accent`        | `${({ theme }) => ThemeSelectors.getAccentColor(theme)}`       |
-| `c-placeholder`   | `${({ theme }) => ThemeSelectors.getPlaceholderColor(theme)}`  |
-| `c-title`         | `${({ theme }) => ThemeSelectors.getTitleColor(theme)}`        |
-| `c-copy`          | `${({ theme }) => ThemeSelectors.getCopyColor(theme)}`         |
+| ShortCode       | Result                                                         |
+| --------------- | -------------------------------------------------------------- |
+| `cAction`       | `${({ theme }) => ThemeSelectors.getAction(theme)}`            |
+| `cActionActive` | `${({ theme }) => ThemeSelectors.getActionActiveColor(theme)}` |
+| `cActionHover`  | `${({ theme }) => ThemeSelectors.getActionHoverColor(theme)}`  |
+| `cVisited`      | `${({ theme }) => ThemeSelectors.getVisitedColor(theme)}`      |
+| `cFocus`        | `${({ theme }) => ThemeSelectors.getFocusColor(theme)}`        |
+| `cGraphic`      | `${({ theme }) => ThemeSelectors.getGraphicColor(theme)}`      |
+| `cError`        | `${({ theme }) => ThemeSelectors.getErrorColor(theme)}`        |
+| `cSuccess`      | `${({ theme }) => ThemeSelectors.getSuccessColor(theme)}`      |
+| `cAccent`       | `${({ theme }) => ThemeSelectors.getAccentColor(theme)}`       |
+| `cPlaceholder`  | `${({ theme }) => ThemeSelectors.getPlaceholderColor(theme)}`  |
+| `cTitle`        | `${({ theme }) => ThemeSelectors.getTitleColor(theme)}`        |
+| `cCopy`         | `${({ theme }) => ThemeSelectors.getCopyColor(theme)}`         |
 
 ---
+
+## ATDS Components
+
+`scLink`
+
+```
+<Link,
+  href=""
+  routerLink={false}"
+  onInteraction={(e: SyntheticEvent) => {
+    e.preventDefault();
+    setVisible(true);
+  }}",
+  attributes={{",
+    [dataAttrGUI]: getDataGuiPrefixedValue(\"attr-here\"),
+    \"aria-label":""
+  }}",
+  trackData={{",
+    <!-- eventEntity: buildUiInteractionEntity(\"track-here\", \"click\")
+  }}>
+</Link>"
+```
+
+`scButton`
+
+```
+<Button
+  displayType=""
+  text=""
+  url={url}
+  className=""
+  additionalClass=""
+  fullWidth={true}"
+  data-gui=""
+  trackingData={{"
+    label:""
+    category: TrackingCategory.STANDARD
+    action: TrackingAction.CLICK
+  }}",
+/>"
+```
+
+`scInput`
+
+```
+<Input
+  additionalClass=""
+  attributes={{"
+    'data-testid': ""
+  }}"
+  errorText=""
+  fieldType=""
+  helpText=""
+  id=""
+  label=""
+  name=""
+  prefix=""
+  suffix=""
+  themeType=""
+/>
+```
+
+`scToggleSwitch`
+
+```
+ <Selection
+  additionalClass=""
+  attributes={{",
+    placeholder: "",
+  }}",
+  defaultChecked
+  errorText=""
+  fieldType=""
+  helpText=""
+  id=""
+  label=""
+  name=""
+/>"
+```
+
+`scCheckbox`
+
+```
+<Selection
+  additionalClass=""
+  attributes={{",
+    placeholder: 'Placeholder'",
+  }}",
+  defaultChecked
+  errorText=""
+  fieldType=""
+  helpText={<>${1:Help text}{' '}<a href=\"${2:url}\">${3:Link text}</a></>}",
+  id=""
+  label=""
+  name=""
+/>
+```
 
 # Troubleshooting
 
