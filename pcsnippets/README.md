@@ -107,6 +107,8 @@ its just easier than trying to work out what `getRelatedOneSpacing` and it just 
 
 ## ATDS Components
 
+### Link
+
 `scLink`
 
 ```
@@ -127,6 +129,10 @@ its just easier than trying to work out what `getRelatedOneSpacing` and it just 
 </Link>"
 ```
 
+---
+
+### Button
+
 `scButton`
 
 ```
@@ -145,6 +151,10 @@ its just easier than trying to work out what `getRelatedOneSpacing` and it just 
   }}",
 />"
 ```
+
+---
+
+### Input
 
 `scInput`
 
@@ -166,6 +176,10 @@ its just easier than trying to work out what `getRelatedOneSpacing` and it just 
 />
 ```
 
+---
+
+### Toggleswitch
+
 `scToggleSwitch`
 
 ```
@@ -184,6 +198,10 @@ its just easier than trying to work out what `getRelatedOneSpacing` and it just 
 />"
 ```
 
+---
+
+### Checkbox
+
 `scCheckbox`
 
 ```
@@ -201,6 +219,8 @@ its just easier than trying to work out what `getRelatedOneSpacing` and it just 
   name=""
 />
 ```
+
+---
 
 # Troubleshooting
 
