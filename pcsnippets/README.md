@@ -10,13 +10,12 @@ If you're having problems finding the right Styled component font to use from a 
 
 For example, in Figma a heading is set to 40px, however you don't know what font name/type that is equivalent to.
 
-So, all you need to do now is starting typing the following:
-`t16`
+So, all you need to do now is type `t40` and enter
 
-This will now output:
-`<TypeFiesta as="p">your text here</TypeFiesta>`
+This will output:
+`<TypeDiscovery as='p'></TypeDiscovery>`
 
-So, now all you have to do is type in "type" then select your font size which is used in Figma and it will give you the correct font to use. This saves time and effort trying to work out what the right font to use is. It also bridges that gap between design and dev and avoids confusion.
+So, now all you have to do is type in `t` then select your font size which is used in Figma and it will give you the correct font to use. This saves time and effort trying to work out what the right font to use is. It also bridges that gap between design and dev and avoids confusion.
 
 | Shortcode    | Value | Result                                  | Caveat    |
 | ------------ | ----- | --------------------------------------- | --------- |
