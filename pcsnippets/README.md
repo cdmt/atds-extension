@@ -225,20 +225,19 @@ its just easier than trying to work out what `getRelatedOneSpacing` and it just 
 
 If you are having any issues, please try adding the following into your `settings.json` file for vscode: -
 
-````{
-  "files.associations": {
-    "*.code-snippets": "snippets"
-  },
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.tabCompletion": "on",
-  "editor.formatOnSave": true,
-  "editor.snippetSuggestions": "top",
-  "editor.suggest.snippetsPreventQuickSuggestions": true,
-  "editor.quickSuggestions": {
-    "comments": "on",
-    "strings": "on",
-    "other": "on"
-  },
-  "[snippets]": {}
-}```
-````
+```
+    "files.associations": {
+        "*.code-snippets": "snippets"
+    },
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.tabCompletion": "on",
+    "editor.formatOnSave": true,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
+    "[snippets]": {}
+```
