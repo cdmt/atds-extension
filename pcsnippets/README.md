@@ -106,6 +106,8 @@ its just easier than trying to work out what `getRelatedOneSpacing` and it just 
 
 ## ATDS Components
 
+---
+
 ### Link
 
 `scLink`
