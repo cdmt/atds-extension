@@ -580,7 +580,7 @@
     "prefix": "scButton",
     "body": [
       "<Button",
-      "  displayType=\"${1|primary, secondary, tertiory|}\"",
+      "  displayType=\"${1|primary,secondary,tertiory|}\"",
       "  text=\"${2:ComponentName}\"",
       "  url={url}",
       "  className=\"your-class-name-here\"",
